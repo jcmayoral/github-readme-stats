@@ -30,7 +30,7 @@ const fetcher = (variables, token) => {
           followers {
             totalCount
           }
-          repositories(first: 600, ownerAffiliations: OWNER, orderBy: {direction: DESC, field: STARGAZERS}) {
+          repositories(first: 200, ownerAffiliations: OWNER, orderBy: {direction: DESC, field: STARGAZERS}) {
             totalCount
             nodes {
               stargazers {
